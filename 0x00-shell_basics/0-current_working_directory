@@ -1,2 +1,4 @@
 #!/bin/bash
-tow line long
+echo pwd
+read a
+echo $a
