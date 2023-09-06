@@ -1,2 +1,2 @@
 #!/bin/bash
-find . ./ -a -maxdepth 1 -type f -regex ".*\.gif"
+find . ./ -a -maxdepth 1 -type f -regex ".*\.gif" "%f\n" | sort 101-gifs
