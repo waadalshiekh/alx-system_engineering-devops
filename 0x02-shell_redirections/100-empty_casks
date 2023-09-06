@@ -1,2 +1,2 @@
 #!/bin/bash
-find . ./ -type f -empty -printf "%f\n" | cut -d: -f1
+find . ./ -a -empty -type f -printf "%f\n"
